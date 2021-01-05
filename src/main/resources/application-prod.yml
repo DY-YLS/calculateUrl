@@ -1,0 +1,13 @@
+#logging.file.name=1.log  # 默认是spring.log
+logging:
+  file:
+    path: logFiles  # 在linux中会在jar包的同级目录下生成logFiles文件夹
+#spring:
+#  datasource:
+#    url: jdbc:mysql://10.105.108.68:3306/blog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+#    username: root
+#    password: root
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+server:
+  port: 9999

@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+#logging.file.name=1.log  # 默认是spring.log
+logging:
+  # 修改输出到文件的日志格式
+  pattern:
+    file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{50} : %msg%n'
+
+#mybatis:
+#  configuration:
+#    map-underscore-to-camel-case: true #java中的驼峰式命名和mysql中的下划线命名对应
+    # 使用MyBatis往MySQL数据库中插入一条记录后，返回该条记录的自增主键值。
+    # 也可以在sql语句上单独设置
+    #use-generated-keys: true
