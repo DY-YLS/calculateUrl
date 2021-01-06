@@ -90,7 +90,7 @@ public class CalculateServiceImpl implements CalculateService {
             int end = formulaString.indexOf(")}", start);
             String formula = formulaString.substring(start, end + 2);
             formulaList.add(formula);
-            formulaString = formulaString.replace(formula, "");
+            formulaString = formulaString.replaceFirst(formulaRegexString(formula), "");
         }
         for (String formula : formulaList) {
             ArrayList<String> objects = new ArrayList<>();
@@ -103,7 +103,7 @@ public class CalculateServiceImpl implements CalculateService {
             List<String> results = calculateFormula.handler(formula);
             for (String url1 : urlList) {
                 for (String result : results) {
-                    String newUrl = url1.replace(formula, result);
+                    String newUrl = url1.replaceFirst(formulaRegexString(formula), result);
                     objects.add(newUrl);
                 }
             }
