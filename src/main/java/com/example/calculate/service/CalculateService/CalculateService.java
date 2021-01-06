@@ -22,6 +22,7 @@ public interface CalculateService extends GeneralCalculate {
         return formulaString.replace("{", "\\{")
                 .replace("}", "\\}")
                 .replace("(", "\\(")
-                .replace(")", "\\)");
+                .replace(")", "\\)")
+                .replace("|","\\|");
     }
 }
