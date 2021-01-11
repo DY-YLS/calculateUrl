@@ -65,7 +65,7 @@
 |---|---|---|---|
 |Offset|{Offset(start-end,step,prefix,firstLinkPrefix)}<br>{Offset(start-end,step,prefix)}<br>{Offset(start-end,step)}<br>{Offset(start-end)}&nbsp;&nbsp;step默认等于1|{Offset(1-5,1,\_,N)}&nbsp;&nbsp;表示范围为1到5，步长为1，前缀为\_,第一个不加前缀|---|
 |Or|{Or(a&#124;b&#124;c)}|{Or(html&#124;pdf)}&nbsp;&nbsp;表示值为html或者pdf|---|
-|Date|{Date(operation,value,format)}<br>{Date(format)}<br>{Date()}&nbsp;&nbsp;默认的format为yyyyMMdd|{Date(AddDays,-1,yyy-MM-dd)}&nbsp;&nbsp;表示前一天的日期，格式为yyyy-MM-dd|---|
+|Date|{Date(operation,value,format)}<br>{Date(format)}<br>{Date()}&nbsp;&nbsp;默认的format为yyyyMMdd|{Date(AddDays,-1,yyy-MM-dd)}&nbsp;&nbsp;表示前一天的日期，格式为yyyy-MM-dd<br>{Date(AfterDays,2,yyy-MM-dd)}&nbsp;&nbsp;表示当天日期以及后面两天日期组成的列表<br>{Date(BeforeDays,2,yyy-MM-dd)}&nbsp;&nbsp;表示当天日期以及前面两天日期组成的列表|---|
 |Random|{Random(min,max)}<br>{Random(max)}&nbsp;&nbsp;表示0到max的随机数<br>{Random()}&nbsp;&nbsp;表示0到Integer.MAX_VALUE的随机数|{Random(1,10)}&nbsp;&nbsp;表示1到10的随机数|---|
 
 ## 打包

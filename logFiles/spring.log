@@ -1,13 +1,40 @@
-2021-01-07 09:57:41 [main] INFO  com.example.calculate.CalculateApplication : Starting CalculateApplication using Java 1.8.0_221 on NB-YANGLUSHENG with PID 10748 (D:\SpringBoot\calculate\target\classes started by yanglusheng in D:\SpringBoot\calculate)
-2021-01-07 09:57:41 [main] INFO  com.example.calculate.CalculateApplication : The following profiles are active: dev
-2021-01-07 09:57:42 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9999 (http)
-2021-01-07 09:57:42 [main] INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
-2021-01-07 09:57:42 [main] INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-07 09:57:42 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2021-01-07 09:57:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1134 ms
-2021-01-07 09:57:43 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2021-01-07 09:57:43 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9999 (http) with context path ''
-2021-01-07 09:57:43 [main] INFO  com.example.calculate.CalculateApplication : Started CalculateApplication in 2.151 seconds (JVM running for 2.749)
-2021-01-07 09:57:54 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-07 09:57:54 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
-2021-01-07 09:57:54 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2021-01-11 16:32:03 [main] INFO  com.example.calculate.CalculateApplication : Starting CalculateApplication using Java 1.8.0_221 on NB-YANGLUSHENG with PID 27484 (D:\SpringBoot\calculate\target\classes started by yanglusheng in D:\SpringBoot\calculate)
+2021-01-11 16:32:03 [main] INFO  com.example.calculate.CalculateApplication : The following profiles are active: dev
+2021-01-11 16:32:05 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9999 (http)
+2021-01-11 16:32:05 [main] INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-01-11 16:32:05 [main] INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-11 16:32:05 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-01-11 16:32:05 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1504 ms
+2021-01-11 16:32:05 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-11 16:32:06 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9999 (http) with context path ''
+2021-01-11 16:32:06 [main] INFO  com.example.calculate.CalculateApplication : Started CalculateApplication in 2.94 seconds (JVM running for 4.012)
+2021-01-11 16:32:20 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 16:32:20 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-01-11 16:32:20 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2021-01-11 17:20:10 [main] INFO  com.example.calculate.CalculateApplication : Starting CalculateApplication using Java 1.8.0_221 on NB-YANGLUSHENG with PID 26244 (D:\SpringBoot\calculate\target\classes started by yanglusheng in D:\SpringBoot\calculate)
+2021-01-11 17:20:10 [main] INFO  com.example.calculate.CalculateApplication : The following profiles are active: dev
+2021-01-11 17:20:11 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9999 (http)
+2021-01-11 17:20:11 [main] INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-01-11 17:20:11 [main] INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-11 17:20:11 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-01-11 17:20:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1132 ms
+2021-01-11 17:20:12 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-11 17:20:12 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9999 (http) with context path ''
+2021-01-11 17:20:12 [main] INFO  com.example.calculate.CalculateApplication : Started CalculateApplication in 2.626 seconds (JVM running for 3.344)
+2021-01-11 17:20:39 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 17:20:39 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-01-11 17:20:39 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2021-01-11 17:24:11 [main] INFO  com.example.calculate.CalculateApplication : Starting CalculateApplication using Java 1.8.0_221 on NB-YANGLUSHENG with PID 28216 (D:\SpringBoot\calculate\target\classes started by yanglusheng in D:\SpringBoot\calculate)
+2021-01-11 17:24:11 [main] INFO  com.example.calculate.CalculateApplication : The following profiles are active: dev
+2021-01-11 17:24:12 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9999 (http)
+2021-01-11 17:24:12 [main] INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-01-11 17:24:12 [main] INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-11 17:24:12 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-01-11 17:24:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 968 ms
+2021-01-11 17:24:12 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-11 17:24:13 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9999 (http) with context path ''
+2021-01-11 17:24:13 [main] INFO  com.example.calculate.CalculateApplication : Started CalculateApplication in 2.185 seconds (JVM running for 4.458)
+2021-01-11 17:24:16 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 17:24:16 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-01-11 17:24:16 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2021-01-11 17:30:37 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
