@@ -1,5 +1,6 @@
 package com.example.calculate.service.CalculateService.Impl;
 
+
 import com.example.calculate.entity.UrlEntity;
 import com.example.calculate.globalConstant.FormulaType;
 import com.example.calculate.service.CalculateService.CalculateFormula.CalculateFormula;
@@ -80,10 +81,7 @@ public class CalculateServiceImpl implements CalculateService {
         while (true) {
             // 查出符合条件的公式
             int start = -1;
-            for (FormulaType formulaType : FormulaType.values()) {
-                start = formulaString.indexOf(formulaLeftFlag(formulaType.getFormulaName()));
-                if (start >= 0) break;
-            }
+            start = indexFormulaStringStart(formulaString);
             if (start < 0) {
                 break;
             }
@@ -110,5 +108,31 @@ public class CalculateServiceImpl implements CalculateService {
             urlList = objects;
         }
         return urlList;
+    }
+
+    /**
+     * 找到公式字符串中，公式的起始位置，若没有公式存在，返回 -1
+     *
+     * @param formulaString
+     * @return
+     */
+    public int indexFormulaStringStart(String formulaString) {
+        int start = -1;
+        for (FormulaType formulaType : FormulaType.values()) {
+            start = formulaString.indexOf(formulaLeftFlag(formulaType.getFormulaName()));
+            if (start >= 0) break;
+        }
+        return start;
+    }
+
+    /**
+     * 验证是否存在公式
+     *
+     * @param formulaString
+     * @return
+     */
+    @Override
+    public boolean checkExistFormula(String formulaString) {
+        return indexFormulaStringStart(formulaString) < 0 ? false : true;
     }
 }

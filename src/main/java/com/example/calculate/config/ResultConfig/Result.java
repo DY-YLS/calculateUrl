@@ -1,6 +1,5 @@
 package com.example.calculate.config.ResultConfig;
 
-import com.example.calculate.config.exceptionHandle.UserException;
 import lombok.Data;
 
 /**
